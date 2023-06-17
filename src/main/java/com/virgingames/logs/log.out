@@ -1,0 +1,5 @@
+2023-06-16 18:06:577 INFO  HomePage :30 - Clicking on login link : [[ChromeDriver: chrome on WINDOWS (70558abbc9540b29ec1203ab8c9d1af6)] -> xpath: //a[contains(text(),'Login')]]
+2023-06-16 18:06:398 INFO  HomePage :33 - Clicking oncookie : [[ChromeDriver: chrome on WINDOWS (f191b8379ca6ee4bfe10d185508e94b4)] -> xpath: //label[@data-qa ='accept-cookie-policy']]
+2023-06-16 18:06:120 INFO  HomePage :39 - Clicking on login link : [[ChromeDriver: chrome on WINDOWS (f191b8379ca6ee4bfe10d185508e94b4)] -> xpath: //a[contains(text(),'Login')]]
+2023-06-17 11:06:836 INFO  HomePage :33 - Clicking oncookie : [[ChromeDriver: chrome on WINDOWS (23909b54c5beb71f451e714562f09465)] -> xpath: //label[@data-qa ='accept-cookie-policy']]
+2023-06-17 11:06:312 INFO  HomePage :39 - Clicking on login link : [[ChromeDriver: chrome on WINDOWS (23909b54c5beb71f451e714562f09465)] -> xpath: //a[contains(text(),'Login')]]

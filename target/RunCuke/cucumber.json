@@ -1,0 +1,104 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7672812900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.sepUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "User should navigate to login page successfully",
+        "description": "",
+        "id": "test--navigation-functionality-for-virgingames-website;user-should-navigate-to-login-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 757170600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 153778200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the  homepage",
+            "match": {
+              "location": "HomePageSteps.iAmOnTheHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 280189700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I accept cookie on homepage",
+            "match": {
+              "location": "HomePageSteps.iAcceptCookieOnHomepage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 463799400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on \"Login\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login",
+                  "offset": 12
+                }
+              ],
+              "location": "HomePageSteps.iClickOnLink(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 60484300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should navigate to verify page successfully",
+            "match": {
+              "location": "HomePageSteps.iShouldNavigateToVerifyPageSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Test  navigation functionality for virgingames website",
+    "description": "As an user I want to navigate into virgingames website",
+    "id": "test--navigation-functionality-for-virgingames-website",
+    "keyword": "Feature",
+    "uri": "virgingame.feature"
+  }
+]
